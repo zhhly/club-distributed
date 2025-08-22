@@ -30,7 +30,7 @@ public class Resp<T> {
     }
     // 成功返回
     public static <T> Resp<T> success(String msg, T data) {
-        return new Resp<T>(true, AppExceptionCodeMsg.SUCCESS.getCode(), msg, data);
+        return new Resp(true, AppExceptionCodeMsg.SUCCESS.getCode(), msg, data);
     }
 
     // 异常错误返回
