@@ -108,7 +108,7 @@ public class SubjectLabelController {
             if(log.isInfoEnabled()){
                 log.info("SubjectLabelController.queryLabelByCategoryId.dto:{}", JSON.toJSONString(subjectLabelDTO));
             }
-            //   Preconditions.checkNotNull(subjectLabelDTO.getId(),"ID不能为空");
+            // Preconditions.checkNotNull(subjectLabelDTO.getId(),"ID不能为空");
             Preconditions.checkNotNull(subjectLabelDTO.getCategoryId(),"分类ID不能为空");
             // BTO -> BO
             SubjectLabelBO subjectLabelBO =

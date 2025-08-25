@@ -18,11 +18,11 @@ public enum CategoryTypeEnum {
     ;
 
     private final String type;
-    private final String decs;
+    private final String desc;
 
-    CategoryTypeEnum(String type, String decs) {
+    CategoryTypeEnum(String type, String desc) {
         this.type = type;
-        this.decs = decs;
+        this.desc = desc;
     }
 
     public static CategoryTypeEnum getType(String typeVal){
