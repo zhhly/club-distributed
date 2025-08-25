@@ -1,11 +1,8 @@
-# club-distributed
-一个使用分布式+微服务+docker技术实现的社区项目。
-
-# 项目架构
-采用DDD领域驱动设计架构。
-
 ## 项目概述
 题库社区项目领域服务 - 一款使用 Java 21 和 Spring Boot 3.2.0 构建、采用多模块 Maven 架构的解决问题的社区项目服务。
+
+## 项目结构
+
 该项目遵循了“领域驱动设计（DDD）”的分层架构，并且清晰地划分了各个功能模块的职责范围：
 
 ```
@@ -38,7 +35,6 @@ mvn spring-boot:run -pl club-subject-starter
 
 # 打包可执行的 JAR 文件
 mvn clean package -pl club-subject-starter
-
 java -jar club-subject-starter/target/club-subject-starter-1.0-SNAPSHOT.jar
 ```
 
@@ -48,3 +44,9 @@ java -jar club-subject-starter/target/club-subject-starter-1.0-SNAPSHOT.jar
 - **Maven**: Build tool
 - **Repository**: Aliyun Maven (https://maven.aliyun.com/repository/public)
 - **Encoding**: UTF-8
+
+
+
+https://api.moonshot.cn/anthropic/
+
+sk-ugVQpzXVLfifUBCGW2bvCFTwabQ1fqAwcBliiegbmbxUJwtt
